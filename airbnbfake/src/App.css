@@ -84,9 +84,13 @@ header {
 }
 
 .search > div:last-child {
-  display: flex;
-  align-items: center;
-  padding-right: 10px;
+  padding: 0 30px; /* Konsistentes Padding */
+  text-align: left; /* Gleiche Ausrichtung wie die anderen */
+  border-right: 1px solid #ddd; /* Trennlinie */
+}
+
+.search > div:last-child {
+  border-right: none; /* Keine Trennlinie für den letzten Abschnitt */
 }
 
 .search-button {
